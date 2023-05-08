@@ -1,0 +1,26 @@
+* {
+    border: solid black 1px;
+}
+
+.header {
+    border: solid red 1px;
+    height: 200px;
+}
+
+.main {
+    display: flex;
+    border: solid pink 1px;
+}
+
+.tableOfcontent {
+    max-width: 300px;
+    min-width: 150px;
+}
+.tableOfcontent, .content {
+    border: solid blue 2px;
+    flex: 1;
+}
+
+.content {
+    flex: 2;
+}

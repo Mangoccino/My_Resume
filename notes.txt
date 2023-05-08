@@ -1,0 +1,99 @@
+This document contains notes for html, CSS and javascript.
+
+HTML stands for hypertext markup language
+
+* boiler plate
+
+    <!DOCTYPE html> //html current version 5.
+    <html lang="en"> //helps with accessibility
+
+    <head> //meta information that is NOT DISPLAYED.
+        <meta charset="UTF-8"> //enable special symbols
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main</title> //tab name
+
+        //to link css
+        <link rel = "stylesheet" href = "style.css">
+
+        //to link javascript
+        <script src="javascript.js"></script>
+    </head>
+
+    * using ! on first line in VS code gives a default boilerplate.
+
+HTML basics:
+
+* opening and closing tags
+* headings 1-6 <h1>
+* strong <strong>
+* emphasis <em>
+* comments <!-- -->
+* <ul> and <ol> lists and list items <li>
+* links <a href = "url"> " " </a>
+    absolute links: links to the internet
+    relative links: links in files, not including domain name
+* images <img src = "path" alt = "missing"> //no end tag
+
+CSS basics:
+* Selectors:
+    - * for universal
+    - type such as <p> <h1>
+    - class such as <div class = "header">, .header { //css code }
+    - id such as <div id = "header">, #header { //css code }
+
+* combining style:
+    .header, .main {
+        //css code
+    }
+* chaining style:
+    .subsection.header {
+        //css code 
+        //this chains any element with subsection and header classes. no space required.
+    }
+* parent child:
+    .parent .child {
+        //css code
+        //only selects child elements that are nested under parent.
+    }
+
+Styles basics:
+* color: background-color: 
+* font-family: font-size:
+* height: width:
+* border: solid color thickness; //this helps with seeing box method
+
+* padding: space between words and textbox
+* margin: space between textbox and textbox
+* border: space between margin and padding
+
+* <div> are blocks
+* <span> are inline
+
+Flexbox basics:
+* parent_container {
+    display: flex; //default to columns (left to right)
+}
+* child_container {
+    flex: 1; //flex one portion
+}
+* second_child_container {
+    flex: 2; //this container will have double the portion of the first container.
+}
+* flex: grow, shrink, basis
+* flex-shrink: default is one, everying shrinks evenly, but higher numbers will shrink more than others.
+* flex-basis: sets initial size of flex item, "auto" will check for any width declaration.
+
+Alignment basics:
+* jutify-content: aligns item across the main axis
+* align-items: aligns item across the cross axis
+
+
+Javascript basics:
+* variables: let, const, var
+* console.log() to print to console
+
+Functions:
+function name(paremeter) {
+    //code
+}
