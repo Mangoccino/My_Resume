@@ -37,3 +37,8 @@ h4 {
 tr, th, td {
     padding: 5px;
 }
+
+a {
+    background-color: black;
+    color: white;
+}
