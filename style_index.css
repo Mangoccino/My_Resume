@@ -1,0 +1,40 @@
+/*Customisation for each section*/
+
+.section.one { /*About me section*/
+    border: solid red 1px;
+}
+
+.section.two { /*Education section*/
+    border: solid orange 2px;
+}
+
+    h3 {
+        margin-bottom: 0px;
+    }
+
+    h4 {
+        margin-top: 0px;
+    }
+
+    table {
+        margin: 20px;
+        padding: 5px;
+    }
+    
+    tr, th, td {
+        padding: 5px;
+    }
+
+.section.three { /*Work experience section*/
+    border: solid green 1px;
+}
+
+.section.four { /*Skills section*/
+    border: solid blue 1px;
+}
+
+.section.five { /*Common questions section*/
+    border: solid purple 1px;
+}
+
+
