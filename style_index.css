@@ -1,7 +1,13 @@
 /*Customisation for each section*/
-
+p {
+    font-size: 18px;
+}
 .section.one { /*About me section*/
     border: solid red 1px;
+}
+
+.section.one p {
+    text-align: center;
 }
 
 .section.two { /*Education section*/
