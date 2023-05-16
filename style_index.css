@@ -3,7 +3,9 @@ p {
     font-size: 18px;
 }
 .section.one { /*About me section*/
-    border: solid red 1px;
+    padding: 20px;
+    color: rgb(237, 237, 237);
+    background-color: #565656;
 }
 
 .section.one p {
@@ -11,36 +13,51 @@ p {
 }
 
 .section.two { /*Education section*/
-    border: solid orange 2px;
+    padding: 20px;
+    background-color: rgb(250, 239, 221);
 }
 
+    tab {
+        display: inline-block;
+        margin: 0 1em;
+
+    }
     h3 {
         margin-bottom: 0px;
     }
 
     h4 {
-        margin-top: 0px;
+        margin: 0;
     }
 
     table {
         margin: 20px;
         padding: 5px;
+        border: solid #565656 1px;
     }
     
     tr, th, td {
         padding: 5px;
+        border: solid #565656 1px;
     }
 
 .section.three { /*Work experience section*/
+    padding: 20px;
     border: solid green 1px;
 }
 
 .section.four { /*Skills section*/
+    padding: 20px;
     border: solid blue 1px;
 }
 
 .section.five { /*Common questions section*/
+    padding: 20px;
     border: solid purple 1px;
+}
+
+.section.six {
+    padding: 20px;
 }
 
 
