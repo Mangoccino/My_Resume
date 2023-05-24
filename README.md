@@ -1,2 +1,2 @@
 # My_Resume
- Website to host my resume and link to my other projects.
+Simple website for my resume, contact and practice commiting!
